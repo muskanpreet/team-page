@@ -1,0 +1,78 @@
+.hello
+{
+	background-color: black;
+}
+.team{
+	background: url("assets/bg.jpg");
+	width: 10%;
+	width: 100%;
+	margin: 0%;
+	margin: 0%;
+	padding: 10%;
+	padding-left: 40%;
+	color: rgb(155, 155, 82);
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 370%;
+}
+.cading
+{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: max-content;
+}
+.flip-card {
+	background-color: transparent;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #0a0a0a;
+	perspective: 1000px;
+  }
+  
+  
+  .flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+  }
+  
+ 
+  .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+  }
+  
+  
+  .flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; 
+	backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+	background-color: #bbb;
+	color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+	background-color: dodgerblue;
+	color: white;
+	transform: rotateY(180deg);
+  }
+  .faculty
+  {
+	  padding-top: 4%;
+	  color: cornsilk;
+	  background-color: darkkhaki;
+	  text-align:center ;
+
+  }
+
+  card:hover {
+	background-color: yellow;
+  }
